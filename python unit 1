@@ -1,0 +1,21 @@
+# Create list
+lst = [5, 2, 9, 1]
+
+# Access
+print("First element:", lst[0])
+
+# Add elements
+lst.append(10)
+print("After append:", lst)
+
+# Remove elements
+lst.remove(2)
+print("After remove:", lst)
+
+# Sort
+lst.sort()
+print("Sorted list:", lst)
+
+# Reverse
+lst.reverse()
+print("Reversed list:", lst)
