@@ -1,0 +1,16 @@
+# Create tuple
+t = (1, 2, 3)
+
+# Access
+print("First element:", t[0])
+
+# Nested tuple
+nested = (1, (2, 3))
+print("Nested:", nested)
+
+# Repetition
+print("Repeated:", t * 2)
+
+# Concatenation
+t2 = (4, 5)
+print("Concatenated:", t + t2)
