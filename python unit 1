@@ -19,3 +19,5 @@ print("Sorted list:", lst)
 # Reverse
 lst.reverse()
 print("Reversed list:", lst)
+
+
