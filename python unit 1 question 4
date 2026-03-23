@@ -1,0 +1,17 @@
+# Create dictionary
+d = {"name": "John", "age": 20}
+
+# Access
+print("Name:", d["name"])
+
+# Update
+d["age"] = 21
+
+# Remove
+d.pop("name")
+print("After removal:", d)
+
+# Merge
+d2 = {"city": "Delhi"}
+d.update(d2)
+print("Merged dictionary:", d)
